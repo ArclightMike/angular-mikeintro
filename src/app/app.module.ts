@@ -13,7 +13,7 @@ import { MessageService } from './message.service';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
   declarations: [ AppComponent, HelloComponent, HeroesComponent, HeroDetailComponent, MessagesComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HeroService, MessageService]
